@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+  "description": "unit-tests Class Library",
+  "authors": [ "gnsch" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "api": "1.0.0-*",
+    "xunit": "2.1.0",
+    "xunit.runner.dnx": "2.1.0-rc1-build204"
+  },
+  "commands": {
+    "test": "xunit.runner.dnx"
+  },
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}
